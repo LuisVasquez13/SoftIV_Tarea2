@@ -24,3 +24,42 @@ Console.WriteLine("El resultado de valor1 >= valor2 es: " + resultado5);
 
 bool resultado6 = valor1 <= valor2;
 Console.WriteLine("El resultado de valor1 <= valor2 es: " + resultado6);
+
+
+
+//Programa de tarjeta de presentación
+Console.WriteLine("Luis Vásquez ID");
+int altura = 160;
+int edad = 20;
+String nombre = "Luis Mario Vásquez Dominguez";
+String informacion = "Nació en Penonomé, es estudiante de Gestión y Desarrollo de Software";
+var hobby = "Prácticar programación";
+var usuario = "luis13"; // Usuario para iniciar sesión
+var contrasena = "1365"; // Contraseña para iniciar sesión
+
+// Mostrar la tarjeta de presentación
+String tarjeta = $"""
+    Nombre: {nombre}
+    Edad: {edad} años
+    Altura: {altura} cm
+    Información adicional: {informacion}
+    Hobby: {hobby}
+    Usuario: {usuario}
+    Contrasena: {contrasena}
+    """;
+
+// Imprimir la tarjeta de presentación
+Console.WriteLine(tarjeta);
+
+
+// Algunos datos 
+
+// Operadores de comparación
+/*
+== igual a
+!= diferente de
+> mayor que
+< menor que
+>= mayor o igual que
+<= menor o igual que
+*/
