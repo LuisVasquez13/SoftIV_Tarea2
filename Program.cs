@@ -51,6 +51,34 @@ String tarjeta = $"""
 // Imprimir la tarjeta de presentación
 Console.WriteLine(tarjeta);
 
+Console.WriteLine(); // Línea en blanco para separar secciones
+
+
+
+//Programa para iniciar sesión, con operadores lógicos y de comparación
+
+String usuarioIngresado = "";
+String contrasenaIngresada = "";
+
+Console.WriteLine("Ingrese el usuario: ");
+usuarioIngresado = Convert.ToString(Console.ReadLine());
+
+Console.WriteLine("Ingrese la contraseña: ");
+contrasenaIngresada = Convert.ToString(Console.ReadLine());
+
+// Verificar si el usuario y la contraseña son correctos
+if (usuario == usuarioIngresado && contrasena == contrasenaIngresada)
+{
+    Console.WriteLine("Acceso concedido. Bienvenido " + nombre);
+    Console.WriteLine();
+}
+else // Si no son correctos, mostrar mensaje de error
+{
+    Console.WriteLine("Acceso denegado. Usuario o contraseña incorrectos.\nLos dos datos deben ser correctos");
+    Console.WriteLine();
+}
+
+
 
 // Algunos datos 
 
@@ -62,4 +90,19 @@ Console.WriteLine(tarjeta);
 < menor que
 >= mayor o igual que
 <= menor o igual que
+*/
+
+// Operadores lógicos
+/* 
+// Todos tienen que ser verdaderos para que el resultado sea verdadero
+&&  AND
+
+// Solo uno tiene que ser verdadero para que el resultado sea verdadero
+|| OR
+
+// Negación de valor1
+! NOT
+
+// XOR: verdadero si un número impar de operandos es verdadero
+^ XOR
 */
